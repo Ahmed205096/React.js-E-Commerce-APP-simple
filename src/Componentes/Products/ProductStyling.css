@@ -1,0 +1,60 @@
+.ProductsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.separator {
+  height: 60px;
+}
+
+.separator2{
+  height: 50px;
+}
+
+.ProductCard {
+  width: 25%;
+  padding: 20px;
+}
+
+.ProductCard img {
+  width: 150px;
+  height: 230px;
+  margin-bottom: 10px;
+}
+
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+.details-btn{
+  margin-top: 5px;
+  width: 80px;
+  height: 30px;
+  background-color: silver;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.details-btn:hover{
+  background-color: black;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.About{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

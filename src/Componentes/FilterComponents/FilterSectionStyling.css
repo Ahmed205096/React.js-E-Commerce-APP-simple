@@ -1,0 +1,22 @@
+.filter-section {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  height: 100%;
+  background-color: white;
+  height: fit-content;
+  box-shadow: 2px 3px 30px black;
+  top:50px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  margin-left: 10px;
+}

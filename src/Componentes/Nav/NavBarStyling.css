@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+
+.NavBar{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0 20px;
+    width: 98vw;
+    z-index: 100;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+}
